@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiTwotonePhone,AiFillInstagram,AiFillFacebook,AiFillTwitterSquare,AiFillLinkedin} from "react-icons/ai";
 import { Link } from 'react-router-dom';
-import topImg from './img/arun main img.jpeg'
+
 
 export const Navbar = () => {
   return (
