@@ -47,12 +47,7 @@ export const Navbar = () => {
           </ul>
         </nav>
        </div>
-     <div className="relative">
-      <img src={topImg }alt='Arun Dhawan- MD'></img>
-      <p className='absolute top-[20%] right-[10%] text-7xl text-[#69ffd6] font-semibold'>Arun Dhawan</p>
-      <p className='absolute top-[35%] right-[18%] text-3xl'>Managing Director</p>
-      <p className='absolute top-[45%] right-[15%] text-5xl'>BestWay Future</p>
-     </div>
+     
     </div>
   )
 }
