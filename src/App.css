@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+
+.list-image-custom {
+  background-size: 16px 16px; /* Set the desired width and height here */
+  /* You can adjust the width and height values as needed */
+}

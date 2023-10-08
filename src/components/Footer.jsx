@@ -5,7 +5,6 @@ import {
   AiFillYoutube,
   AiFillApple,
   AiOutlineMail,
-  AiTwotonePhone,
   AiOutlineFieldTime,
   AiFillPhone,
   AiFillHeart,

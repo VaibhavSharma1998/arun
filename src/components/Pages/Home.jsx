@@ -20,7 +20,7 @@ export const Home = () => {
   const navigate = useNavigate();
   return (
     <div className="bg-black text-white w-full">
-      <div className="relative border">
+      <div className="relative border ">
         <img src={topImg} alt="Arun Dhawan- MD"></img>
         <p className="absolute top-[20%] right-[10%] text-7xl text-[#69ffd6] font-semibold">
           Arun Dhawan
