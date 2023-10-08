@@ -134,7 +134,7 @@ export const Footer = () => {
           {<AiFillHeart size={30} className="text-[#69ffd6 inline" />}{" "}
         </span>
         by{" "}
-        <span className="text-[#69ffd6] font-semibold">
+        <span className="text-[#69ffd6] font-semibold hover:border-b-2 h-0 hover:text-gray-400 cursor-pointer">
           {" "}
           <a href="https://www.linkedin.com/in/vaibhav1998/" target="blank">
             Vaibhav Sharma

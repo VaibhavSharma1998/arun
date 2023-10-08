@@ -17,8 +17,7 @@ export const About = () => {
       </h1>
       <div className="w-[10%] mx-auto border-b-2 border-[#69ffd6] mt-2"></div>
       <div className="">
-        <ul className="list-disc text-xl ]">
-         
+        <ul className="list-disc">
           <li className="mt-4  ">
             <span className="text-[#69ffd6]">Mr. Arun Dhawan</span>, a name
             synonymous with excellence in the world of{" "}
@@ -72,6 +71,103 @@ export const About = () => {
             one can achieve greatness in both business and life.
           </li>
         </ul>
+      </div>
+      <p className="text-[#69ffd6] text-2xl mt-8">Business Coach</p>
+
+      <ul className="list-disc text-xl">
+        <li className="mt-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            totam.
+          </p>
+        </li>
+        <li className="mt-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            totam.
+          </p>
+        </li>
+        <li className="mt-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            totam.
+          </p>
+        </li>
+        <li className="mt-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            totam.
+          </p>
+        </li>
+      </ul>
+      <p className="text-[#69ffd6] text-2xl mt-8">Awards & Honours</p>
+
+      <ul className="list-disc text-xl">
+        <li className="mt-4">
+          Awarded as the{" "}
+          <span className="text-[#69ffd6]">Youngest Entrepreneur</span> of the{" "}
+          <span className="text-[#69ffd6]">year 2022</span>.
+        </li>
+        <li className="mt-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            totam.
+          </p>
+        </li>
+        <li className="mt-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            totam.
+          </p>
+        </li>
+        <li className="mt-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            totam.
+          </p>
+        </li>
+        <li className="mt-4">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe,
+            totam.
+          </p>
+        </li>
+      </ul>
+      <div className=" w-full flex ">
+        <div className="w-[40%] flex items-center ">
+          <p className="text-[250px] text-[#69ffd6] "> 12</p>
+          <div className=" flex  flex-col ml-5">
+            <p className="text-3xl">Years of </p>
+            <p className="text-3xl mt-1">experience</p>
+            <p className="text-xl mt-2">Glorious 12 years of</p>
+            <p className="text-xl ">experience and success in</p>
+            <p className="text-xl">changing lives.</p>
+          </div>
+        </div>
+        <div className="w-[60%] flex items-center">
+          <div className="w-[50%]  flex flex-col items-center ">
+            <div className="flex flex-col items-center">
+              <p className="text-5xl ">10 +</p>
+              <p className="text-3xl my-4">Countries</p>
+              <hr className="w-[200%]"></hr>
+            </div>
+            <div className="flex flex-col items-center mt-5">
+              <p className="text-5xl">5.1 L</p>
+              <p className="text-3xl my-4">Participants</p>
+            </div>
+          </div>
+          <div className="w-[50%] border-l-2">
+            <div className="flex flex-col items-center">
+              <p className="text-5xl">500 +</p>
+              <p className="text-3xl my-4">Workshops</p>
+              <hr className="w-[80%]"></hr>
+            </div>
+            <div className="flex flex-col items-center mt-5">
+              <p className="text-5xl">800 +</p>
+              <p className="text-3xl my-4">Events</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
