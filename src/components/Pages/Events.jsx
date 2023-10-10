@@ -31,11 +31,11 @@ export const Events = () => {
         />
         {/* <p className='absolute top-80 right-[40rem] text-7xl font-semibold text-[#69ffd6] '>Events</p> */}
       </div>
-      <p className="text-center text-[#69ffd6] text-5xl font-semibold mt-8">
+      <p className="text-center text-[#69ffd6] text-5xl font-semibold mt-10">
         Training
       </p>
       <div className="w-[5%] mx-auto border-b-2 border-[#69ffd6] mt-2"></div>
-      <div className="flex px-[10%] w-full mt-8">
+      <div className="flex px-[10%] w-full mt-10">
         <img
           src={trainingImg4}
           alt="Training img 1"
@@ -52,11 +52,11 @@ export const Events = () => {
           className="w-[33%] h-72 rounded  border"
         />
       </div>
-      <p className="text-center text-[#69ffd6] text-5xl font-semibold mt-8">
+      <p className="text-center text-[#69ffd6] text-5xl font-semibold mt-10">
         Car Achievers
       </p>
       <div className="w-[10%] mx-auto border-b-2 border-[#69ffd6] mt-2"></div>
-      <div className="flex px-[10%] w-full mt-8">
+      <div className="flex px-[10%] w-full mt-10">
         <img
           src={carAchiever1}
           alt="Training img 1"
@@ -73,7 +73,7 @@ export const Events = () => {
           className="w-[33%] h-72 rounded  border"
         />
       </div>
-      <div className="flex px-[10%] w-full mt-8">
+      <div className="flex px-[10%] w-full mt-10">
         <img
           src={carAchiever4}
           alt="Training img 1"
@@ -90,11 +90,11 @@ export const Events = () => {
           className="w-[33%] h-72 rounded border"
         />
       </div>
-      <p className="text-center text-[#69ffd6] text-5xl font-semibold mt-8">
+      <p className="text-center text-[#69ffd6] text-5xl font-semibold mt-10">
       Cherishing Moments
       </p>
       <div className="w-[15%] mx-auto border-b-2 border-[#69ffd6] mt-2"></div>
-      <div className="flex px-[10%] w-full mt-8">
+      <div className="flex px-[10%] w-full mt-10">
         <img
           src={moments1}
           alt="Training img 1"
@@ -111,7 +111,7 @@ export const Events = () => {
           className="w-[33%] h-72 rounded border"
         />
       </div>
-      <div className="flex px-[10%] w-full mt-8">
+      <div className="flex px-[10%] w-full mt-10">
         <img
           src={moments4}
           alt="Training img 1"
@@ -128,7 +128,7 @@ export const Events = () => {
           className="w-[33%] h-72 rounded border"
         />
       </div>
-      <div className="flex px-[10%] w-full mt-8 pb-12">
+      <div className="flex px-[10%] w-full mt-10 pb-20">
         <img
           src={moments7}
           alt="Training img 1"

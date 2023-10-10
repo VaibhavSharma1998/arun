@@ -22,18 +22,14 @@ export const Home = () => {
     <div className="bg-black text-white w-full">
       <div className="relative ">
         <img src={topImg} alt="Arun Dhawan- MD"></img>
-        <p className="absolute top-[20%] right-[10%] text-7xl text-[#69ffd6] font-semibold">
-          Arun Dhawan
-        </p>
-        <p className="absolute top-[35%] right-[18%] text-3xl">
-          Managing Director
-        </p>
-        <p className="absolute top-[45%] right-[15%] text-5xl">
-          BestWay Future
-        </p>
+        <div className="absolute top-[30%] right-[10%] ">
+          <p className="text-7xl text-[#69ffd6] font-semibold">Arun Dhawan</p>
+          <p className=" text-3xl mt-4 ml-20">Managing Director</p>
+          <p className=" text-5xl mt-4 ml-8">BestWay Future</p>
+        </div>
       </div>
-      <div className="px-[10%]">
-        <p className="text-5xl  text-[#69ffd6] text-center mt-[10%]">
+      <div className="px-[10%] mt-10">
+        <p className="text-5xl  text-[#69ffd6] text-center ">
           On a Mission to inspire Millions of Lives
         </p>
         <p className="text-center text-2xl mt-4">
@@ -42,7 +38,7 @@ export const Home = () => {
         </p>
       </div>
       <div className="px-[10%] w-full flex items-center mt-10">
-        <div className="w-[50%]">
+        <div className="w-[50% ]">
           <div dangerouslySetInnerHTML={{ __html: embedCode }} />
         </div>
         <div className="w-[50%]">
@@ -51,30 +47,22 @@ export const Home = () => {
             distinguished{" "}
             <span className="text-[#69ffd6]">Managing Director</span> of{" "}
             <span className="text-[#69ffd6]">
-              Bestway Health and Future Pvt Ltd
-            </span>{" "}
-            , stands as a remarkable figure in the world of{" "}
-            <span className="text-[#69ffd6]">business</span> and{" "}
-            <span className="text-[#69ffd6]">motivational speaking</span>. With
-            over <span className="text-[#69ffd6]">12 years</span> of invaluable
-            experience in the field of{" "}
-            <span className="text-[#69ffd6]">network marketing</span> .{" "}
-            <span className="text-[#69ffd6]">Mr. Arun Dhawan</span>is not only a
-            seasoned Network marketing professional but also a{" "}
-            <span className="text-[#69ffd6]">motivational luminary</span>,{" "}
-            <span className="text-[#69ffd6]">positively impacting </span>the
-            lives of many and leaving an indelible mark on the{" "}
-            <span className="text-[#69ffd6]">world of business</span> and{" "}
-            <span className="text-[#69ffd6]">personal development</span>. His{" "}
-            <span className="text-[#69ffd6]">journey</span> is a testament to
-            the power of perseverance and greatness that{" "}
-            <span className="text-[#69ffd6]">lies</span> within each of us.
+              Bestway Health and Future Pvt Ltd{" "}
+            </span>
+            stands as a remarkable figure in the world of business and
+            motivational speaking. With over 12 years of invaluable experience
+            in the field of network marketing . Mr. Arun Dhawanis not only a
+            seasoned Network marketing professional but also a motivational
+            luminary, positively impacting the lives of many and leaving an
+            indelible mark on the world of business and personal development.
+            His journey is a testament to the power of perseverance and
+            greatness that lies within each of us.
           </p>
           <button
-            className="py-2 px-4 bg-[#69ffd6] text-black rounded ml-[60%] hover:bg-gray-400"
+            className="py-2 px-16 bg-[#69ffd6] text-black rounded ml-[5%] hover:bg-gray-400 mt-2"
             onClick={() => navigate("/about")}
           >
-            See full Bio
+            SEE fULL BIO
           </button>
         </div>
       </div>
@@ -100,10 +88,9 @@ export const Home = () => {
               <p className="text-5xl">5.1 L</p>
               <p className="text-3xl my-4">Participants</p>
             </div>
-            
           </div>
           <div className="w-[50%] border-l-2">
-          <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center">
               <p className="text-5xl">500 +</p>
               <p className="text-3xl my-4">Workshops</p>
               <hr className="w-[80%]"></hr>

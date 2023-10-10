@@ -68,7 +68,7 @@ export const Contact = () => {
         Contact Us
       </h1>
       <div className="w-[10%] mx-auto border-b-2 border-[#69ffd6] mt-2"></div>
-      <div className="w-full flex px-[10%] mt-10 pb-16 ">
+      <div className="w-full flex px-[10%] mt-10 pb-20 ">
         <div className="w-[50%] flex flex-col ml-20">
           <p className=" text-3xl font-semibold text-[#69ffd6]">Get in Touch</p>
           <div className="flex mt-10">

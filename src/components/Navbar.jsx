@@ -1,9 +1,14 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { AiTwotonePhone,AiFillInstagram,AiFillFacebook,AiFillTwitterSquare,AiFillLinkedin} from "react-icons/ai";
 import { Link } from 'react-router-dom';
 
 
 export const Navbar = () => {
+  const[activelink,setActiveLink] = useState("")
+
+  const handleActiveClick = (link)=>{
+    setActiveLink(link)
+  }
   return (
     <div className='w-full bg-black text-white  items-center '>
        <div className="flex w-full px-[10%] h-10 border-t-4 border-[#69ffd6]">
@@ -30,16 +35,21 @@ export const Navbar = () => {
             </li>
             </div>
             <div className='w-[50%] flex items-center ml-[15%] text-xl font-semibold  text-black'>
-            <li className='mr-10 hover:text-[gray]'>
+            <li className={`mr-10 hover:text-gray-400 
+            ${activelink === "home" ? "text-gray-400":""}`} 
+            onClick={()=>handleActiveClick("home")}>
               <Link to='/home'>Home</Link>
             </li>
-            <li className='mr-10 hover:text-[gray]'> 
+            <li className={`mr-10 hover:text-gray-400 
+               ${activelink === "about" ? "text-gray-400" :""}`} onClick={()=>handleActiveClick("about")}> 
               <Link to='/about '>About</Link>
             </li>
-            <li className='mr-10 hover:text-[gray]'>
+            <li className={`mr-10 hover:text-gray-400 
+               ${activelink === "events" ? "text-gray-400" :""}`} onClick={()=>handleActiveClick("events")}> 
               <Link to='/events'>Events</Link>
             </li>
-            <li className='mr-10 hover:text-[gray]'>
+            <li className={`mr-10 hover:text-gray-400 
+               ${activelink === "contact" ? "text-gray-400" :""}`} onClick={()=>handleActiveClick("contact")}>
               <Link to='/contact'>Contact us</Link>
             </li>
             </div>
