@@ -4,7 +4,7 @@ import aboutImg from "../img/arun about photo.jpeg";
 export const About = () => {
   window.scrollTo(0, 0);
   return (
-    <div className="bg-black text-white w-full px-[10%] ">
+    <div className="bg-primary text-secondary w-full px-[10%] ">
       <div>
         <img
           src={aboutImg}
@@ -12,30 +12,30 @@ export const About = () => {
           className="w-full h-[30rem] borde px-[5%]"
         />
       </div>
-      <h1 className="text-center text-[#69ffd6] text-5xl font-semibold mt-10">
+      <h1 className="text-center text-tertiary text-5xl font-semibold mt-10">
         MD Arun Dhawan
       </h1>
-      <div className="w-[10%] mx-auto border-b-2 border-[#69ffd6] mt-2"></div>
+      <div className="w-[10%] mx-auto border-b-2 border-tertiary mt-2"></div>
       <div className="">
         <ul className="list-disc mt-10">
           <li className="">
-            <span className="text-[#69ffd6]">Mr. Arun Dhawan</span>, a name
+            <span className="text-tertiary">Mr. Arun Dhawan</span>, a name
             synonymous with excellence in the world of{" "}
-            <span className="text-[#69ffd6]">business</span> , serves as the{" "}
-            <span className="text-[#69ffd6]">Managing Director</span> of{" "}
-            <span className="text-[#69ffd6]">
+            <span className="text-tertiary">business</span> , serves as the{" "}
+            <span className="text-tertiary">Managing Director</span> of{" "}
+            <span className="text-tertiary">
               {" "}
               Bestway Health and Future Pvt Ltd
             </span>
-            . With over a <span className="text-[#69ffd6]">decade</span> of{" "}
-            <span className="text-[#69ffd6]">experience</span> in the field, he
+            . With over a <span className="text-tertiary">decade</span> of{" "}
+            <span className="text-tertiary">experience</span> in the field, he
             has established himself as a
-            <span className="text-[#69ffd6]">visionary leader</span>
+            <span className="text-tertiary">visionary leader</span>
             and a driving force behind the company's success. His{" "}
-            <span className="text-[#69ffd6]">journey </span>in{" "}
-            <span className="text-[#69ffd6]">network marketing</span> has been
+            <span className="text-tertiary">journey </span>in{" "}
+            <span className="text-tertiary">network marketing</span> has been
             nothing short of{" "}
-            <span className="text-[#69ffd6]">inspirational</span>.
+            <span className="text-tertiary">inspirational</span>.
           </li>
           <li className="mt-4 ">
             As a successful entrepreneur, Mr. Dhawan has navigated the complex
@@ -72,7 +72,7 @@ export const About = () => {
           </li>
         </ul>
       </div>
-      <p className="text-[#69ffd6] text-2xl mt-10">Business Coach</p>
+      <p className="text-tertiary text-2xl mt-10">Business Coach</p>
 
       <ul className="list-disc text-xl mt-10">
         <li className="">
@@ -100,13 +100,13 @@ export const About = () => {
           </p>
         </li>
       </ul>
-      <p className="text-[#69ffd6] text-2xl mt-10">Awards & Honours</p>
+      <p className="text-tertiary text-2xl mt-10">Awards & Honours</p>
 
       <ul className="list-disc text-xl mt-10">
         <li className="">
           Awarded as the{" "}
-          <span className="text-[#69ffd6]">Youngest Entrepreneur</span> of the{" "}
-          <span className="text-[#69ffd6]">year 2022</span>.
+          <span className="text-tertiary">Youngest Entrepreneur</span> of the{" "}
+          <span className="text-tertiary">year 2022</span>.
         </li>
         <li className="mt-4">
           <p>
@@ -135,7 +135,7 @@ export const About = () => {
       </ul>
       <div className=" w-full flex">
         <div className="w-[40%] flex items-center ">
-          <p className="text-[250px] text-[#69ffd6] "> 12</p>
+          <p className="text-[250px] text-tertiary "> 12</p>
           <div className=" flex  flex-col ml-5">
             <p className="text-3xl">Years of </p>
             <p className="text-3xl mt-1">experience</p>

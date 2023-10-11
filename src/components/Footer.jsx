@@ -14,7 +14,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col px-[10%] w-full py-[3%] bg-gray-900 text-white">
+    <div className="flex flex-col px-[10%] w-full py-[3%] bg-quaternary text-secondary">
       <div className="flex">
         <div className="w-[33%] flex flex-col">
           <img
@@ -107,21 +107,21 @@ export const Footer = () => {
         <div className="w-[33%] flex flex-col">
           <p className="ml-[15%] text-3xl font-semibold">Contact us</p>
           <div className="flex mt-1">
-            <p className="mr-2 text-[#69ffd6]">
+            <p className="mr-2 text-tertiary">
               {<AiOutlineMail size={30} className="" />}
             </p>
             <p>bestwayservice16@gmail.com </p>
           </div>
           <div className="flex mt-1">
-            <p className="mr-2 text-[#69ffd6]">{<CiLocationOn size={30} />}</p>
+            <p className="mr-2 text-tertiary">{<CiLocationOn size={30} />}</p>
             <p> Sector 9-10 road,Jandli Rd,Luxmi Nagar,Ambala,Haryana,134003</p>
           </div>
           <div className="flex mt-1">
-            <p className="mr-2 text-[#69ffd6]">{<AiFillPhone size={30} />}</p>
+            <p className="mr-2 text-tertiary">{<AiFillPhone size={30} />}</p>
             <p>+91 73 4748 7946</p>
           </div>
           <div className="flex mt-1">
-            <p className="mr-2 text-[#69ffd6]">
+            <p className="mr-2 text-tertiary">
               {<AiOutlineFieldTime size={30} />}
             </p>
             <p> 09:00AM - 6:00PM</p>
@@ -134,7 +134,7 @@ export const Footer = () => {
           {<AiFillHeart size={30} className="text-[#69ffd6 inline" />}{" "}
         </span>
         by{" "}
-        <span className="text-[#69ffd6] font-semibold hover:border-b-2 h-0 hover:text-gray-400 cursor-pointer">
+        <span className="text-tertiary font-semibold hover:border-b-2 h-0 hover:text-gray-400 cursor-pointer">
           {" "}
           <a href="https://www.linkedin.com/in/vaibhav1998/" target="blank">
             Vaibhav Sharma

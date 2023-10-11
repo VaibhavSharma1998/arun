@@ -1,6 +1,7 @@
 import React from "react";
 import topImg from "../img/arun main img.jpeg";
 import { useNavigate } from "react-router-dom";
+import { EventsCom } from "../EventsCom";
 
 export const Home = () => {
   const embedCode = `
@@ -19,17 +20,17 @@ export const Home = () => {
   `;
   const navigate = useNavigate();
   return (
-    <div className="bg-black text-white w-full">
+    <div className="bg-primary text-secondary w-full">
       <div className="relative ">
         <img src={topImg} alt="Arun Dhawan- MD"></img>
         <div className="absolute top-[30%] right-[10%] ">
-          <p className="text-7xl text-[#69ffd6] font-semibold">Arun Dhawan</p>
+          <p className="text-7xl text-tertiary font-semibold">Arun Dhawan</p>
           <p className=" text-3xl mt-4 ml-20">Managing Director</p>
           <p className=" text-5xl mt-4 ml-8">BestWay Future</p>
         </div>
       </div>
       <div className="px-[10%] mt-10">
-        <p className="text-5xl  text-[#69ffd6] text-center ">
+        <p className="text-5xl  text-tertiary text-center ">
           On a Mission to inspire Millions of Lives
         </p>
         <p className="text-center text-2xl mt-4">
@@ -42,11 +43,11 @@ export const Home = () => {
           <div dangerouslySetInnerHTML={{ __html: embedCode }} />
         </div>
         <div className="w-[50%]">
-          <p className="ml-5 text-xl">
-            <span className="text-[#69ffd6]">Mr. Arun Dhawan</span>, the
+          <p className="ml-10 text-xl">
+            <span className="text-tertiary">Mr. Arun Dhawan</span>, the
             distinguished{" "}
-            <span className="text-[#69ffd6]">Managing Director</span> of{" "}
-            <span className="text-[#69ffd6]">
+            <span className="text-tertiary">Managing Director</span> of{" "}
+            <span className="text-tertiary">
               Bestway Health and Future Pvt Ltd{" "}
             </span>
             stands as a remarkable figure in the world of business and
@@ -59,16 +60,16 @@ export const Home = () => {
             greatness that lies within each of us.
           </p>
           <button
-            className="py-2 px-16 bg-[#69ffd6] text-black rounded ml-[5%] hover:bg-gray-400 mt-2"
+            className="py-2 px-16 bg-tertiary text-primary rounded  hover:bg-gray-400 mt-2 ml-10"
             onClick={() => navigate("/about")}
           >
             SEE fULL BIO
           </button>
         </div>
       </div>
-      <div className="px-[10%] w-full flex ">
+      <div className="px-[10%] w-full flex mt-10">
         <div className="w-[40%] flex items-center ">
-          <p className="text-[250px] text-[#69ffd6] "> 12</p>
+          <p className="text-[250px] text-tertiary "> 12</p>
           <div className=" flex  flex-col ml-5">
             <p className="text-3xl">Years of </p>
             <p className="text-3xl mt-1">experience</p>
@@ -102,6 +103,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <EventsCom/>
     </div>
   );
 };

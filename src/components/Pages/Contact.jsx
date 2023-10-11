@@ -52,7 +52,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="w-full bg-black text-white">
+    <div className="w-full bg-primary text-secondary">
       <div className="relative">
         <img
           src={handshakeContact}
@@ -64,21 +64,21 @@ export const Contact = () => {
           <p className="text-2xl">"Worlds Change, When eyes meet"</p>
         </div>
       </div>
-      <h1 className="text-center text-[#69ffd6] text-5xl font-semibold mt-10">
+      <h1 className="text-center text-tertiary text-5xl font-semibold mt-10">
         Contact Us
       </h1>
-      <div className="w-[10%] mx-auto border-b-2 border-[#69ffd6] mt-2"></div>
+      <div className="w-[10%] mx-auto border-b-2 border-tertiary mt-2"></div>
       <div className="w-full flex px-[10%] mt-10 pb-20 ">
         <div className="w-[50%] flex flex-col ml-20">
-          <p className=" text-3xl font-semibold text-[#69ffd6]">Get in Touch</p>
+          <p className=" text-3xl font-semibold text-tertiary">Get in Touch</p>
           <div className="flex mt-10">
-            <p className="mr-2 text-[#69ffd6]">
+            <p className="mr-2 text-tertiary">
               {<AiOutlineMail size={30} className="" />}
             </p>
             <p className="text-2xl">bestwayservice16@gmail.com </p>
           </div>
           <div className="flex mt-20">
-            <p className="mr-2 text-[#69ffd6]">{<CiLocationOn size={30} />}</p>
+            <p className="mr-2 text-tertiary">{<CiLocationOn size={30} />}</p>
             <p className="text-2xl">
               {" "}
               Sector 9-10 road,Jandli Rd,Luxmi <br />
@@ -86,22 +86,22 @@ export const Contact = () => {
             </p>
           </div>
           <div className="flex mt-20">
-            <p className="mr-2 text-[#69ffd6]">{<AiFillPhone size={30} />}</p>
+            <p className="mr-2 text-tertiary">{<AiFillPhone size={30} />}</p>
             <p className="text-2xl">+91 73 4748 7946</p>
           </div>
           <div className="flex mt-20">
-            <p className="mr-2 text-[#69ffd6]">
+            <p className="mr-2 text-tertiary">
               {<AiOutlineFieldTime size={30} />}
             </p>
             <p className="text-2xl"> 09:00AM - 6:00PM</p>
           </div>
         </div>
         <div className="w-[50%]">
-          <p className=" text-3xl font-semibold text-[#69ffd6]">
+          <p className=" text-3xl font-semibold text-tertiary">
             Have Any Questions?
           </p>
-          <form className="text-black" onSubmit={handleSubmit}>
-            <label className="block mt-4 text-white">Name :</label>
+          <form className="text-primary" onSubmit={handleSubmit}>
+            <label className="block mt-4 text-secondary">Name :</label>
             <input
               type="text"
               name="name"
@@ -111,7 +111,7 @@ export const Contact = () => {
               onChange={handleChange}
               required
             />
-            <label className="block mt-4 text-white">Email :</label>
+            <label className="block mt-4 text-secondary">Email :</label>
             <input
               type="email"
               name="email"
@@ -121,7 +121,7 @@ export const Contact = () => {
               onChange={handleChange}
               required
             />
-            <label className="block mt-4 text-white">Phone :</label>
+            <label className="block mt-4 text-secondary">Phone :</label>
             <input
               type="tel"
               name="phone"
@@ -131,7 +131,7 @@ export const Contact = () => {
               onChange={handleChange}
               required
             />
-            <label className="block mt-4 text-white">Message :</label>
+            <label className="block mt-4 text-secondary">Message :</label>
             <textarea
               placeholder="Your message"
               className="block w-[70%] mt-4 p-2"
@@ -141,7 +141,7 @@ export const Contact = () => {
               required
             ></textarea>
 
-            <button className="bg-[#69ffd6] py-2 px-8 text-black hover:bg-gray-400 mt-4 rounded ml-[20%]">
+            <button className="bg-tertiary py-2 px-8 text-primary hover:bg-gray-400 mt-4 rounded ml-[20%]">
               Submit
             </button>
           </form>
