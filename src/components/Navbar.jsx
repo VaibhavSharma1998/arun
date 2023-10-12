@@ -122,7 +122,7 @@ export const Navbar = () => {
         </nav>
         {isDropdownVisible && (
           <nav className="">
-            <ul className="flex flex-col items-center w-full h-60 text-primary lg:hidden">
+            <ul className="flex flex-col items-center w-full h-48 text-primary lg:hidden">
               <li
                 className="p-3 hover:text-quinary"
                 onClick={() => handleActiveClick("home")}

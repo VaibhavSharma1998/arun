@@ -22,118 +22,118 @@ import moments9 from './img/moments9.jpeg'
 export const EventsCom = () => {
   return (
     <div className="w-full  bg-primary text-secondary">
-      <p className="text-center text-tertiary text-5xl font-semibold mt-10">
+      <p className="text-center text-tertiary md:text-5xl text-3xl font-semibold mt-10">
         Training
       </p>
-      <div className="w-[5%] mx-auto border-b-2 border-tertiary mt-2"></div>
-      <div className="flex px-[10%] w-full mt-10">
+      <div className="md:w-[5%] w-[20%] mx-auto border-b-2 border-tertiary mt-2"></div>
+      <div className="flex px-[10%] w-full mt-10 md:flex-row flex-col">
         <img
           src={trainingImg4}
           alt="Training img 1"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border"
         />
         <img
           src={trainingImg2}
           alt="Training img 2"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border mt-10 md:mt-0"
         />
         <img
           src={trainingImg3}
           alt="Training img 3"
-          className="w-[33%] h-72 rounded  border"
+          className="md:w-[33%] w-full h-72 rounded  border mt-10 md:mt-0"
         />
       </div>
-      <p className="text-center text-tertiary text-5xl font-semibold mt-10">
+      <p className="text-center text-tertiary md:text-5xl text-3xl font-semibold mt-10">
         Car Achievers
       </p>
-      <div className="w-[10%] mx-auto border-b-2 border-tertiary mt-2"></div>
-      <div className="flex px-[10%] w-full mt-10">
+      <div className="md:w-[10%] w-[30%] mx-auto border-b-2 border-tertiary mt-2"></div>
+      <div className="flex px-[10%] w-full mt-10 md:flex-row flex-col">
         <img
           src={carAchiever1}
           alt="Training img 1"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border"
         />
         <img
           src={carAchiever2}
           alt="Training img 2"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border mt-10 md:mt-0"
         />
         <img
           src={carAchiever3}
           alt="Training img 3"
-          className="w-[33%] h-72 rounded  border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border mt-10 md:mt-0"
         />
       </div>
-      <div className="flex px-[10%] w-full mt-10">
+      <div className="flex px-[10%] w-full mt-10 md:flex-row flex-col">
         <img
           src={carAchiever4}
           alt="Training img 1"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border"
         />
         <img
           src={carAchiever5}
           alt="Training img 2"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border mt-10 md:mt-0"
         />
         <img
           src={carAchiever6}
           alt="Training img 3"
-          className="w-[33%] h-72 rounded border"
+          className="md:w-[33%] w-full h-72 rounded  border mt-10 md:mt-0"
         />
       </div>
-      <p className="text-center text-tertiary text-5xl font-semibold mt-10">
+      <p className="text-center text-tertiary md:text-5xl text-3xl font-semibold mt-10">
         Cherishing Moments
       </p>
-      <div className="w-[15%] mx-auto border-b-2 border-tertiary mt-3"></div>
-      <div className="flex px-[10%] w-full mt-10">
+      <div className="md:w-[15%]  w-[30%] mx-auto border-b-2 border-tertiary mt-3"></div>
+      <div className="flex px-[10%] w-full mt-10 md:flex-row flex-col">
         <img
           src={moments1}
           alt="Training img 1"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border"
         />
         <img
           src={moments2}
           alt="Training img 2"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border mt-10 md:mt-0"
         />
         <img
           src={moments3}
           alt="Training img 3"
-          className="w-[33%] h-72 rounded border"
+          className="md:w-[33%] w-full h-72 rounded  border mt-10 md:mt-0"
         />
       </div>
-      <div className="flex px-[10%] w-full mt-10">
+      <div className="flex px-[10%] w-full mt-10 md:flex-row flex-col">
         <img
           src={moments4}
           alt="Training img 1"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border"
         />
         <img
           src={moments5}
           alt="Training img 2"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border mt-10 md:mt-0"
         />
         <img
           src={moments6}
           alt="Training img 3"
-          className="w-[33%] h-72 rounded border"
+          className="md:w-[33%] w-full h-72 rounded  border mt-10 md:mt-0"
         />
       </div>
-      <div className="flex px-[10%] w-full mt-10 pb-20">
+      <div className="flex px-[10%] w-full mt-10 md:flex-row flex-col pb-10">
         <img
           src={moments7}
           alt="Training img 1"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border"
         />
         <img
           src={moments8}
           alt="Training img 2"
-          className="w-[33%] h-72 rounded mr-4 border"
+          className="md:w-[33%] w-full h-72 rounded mr-4 border mt-10 md:mt-0"
         />
         <img
           src={moments9}
           alt="Training img 3"
-          className="w-[33%] h-72 rounded border"
+          className="md:w-[33%] w-full h-72 rounded  border mt-10 md:mt-0"
         />
       </div>
     </div>
