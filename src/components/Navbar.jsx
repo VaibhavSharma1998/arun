@@ -28,12 +28,13 @@ export const Navbar = () => {
   };
   return (
     <div className="w-full bg-primary text-secondary  items-center ">
-      <div className="flex  md:px-[10%] h-10 border-t-4 border-tertiary">
-        <div className="w-[50%] flex items-center cursor-pointer">
+      <div className="flex  md:px-[10%] h-10 border-t-4 border-tertiary px-[5%]">
+        <div className="w-[65%]  md:w-[50%]  flex items-center cursor-pointer ">
           <p className="mr-1  text-tertiary">{<AiTwotonePhone />} </p>
           <p>Team: 0171-2960400</p>
+          
         </div>
-        <div className="w-[50%] flex items-center md:ml-[40%] pl-12 md:pl-0">
+        <div className="w-[35%]  md:w-[50%] flex items-center md:pl-[28%]">
           <a
             href="https://www.instagram.com/arundhawan22/ "
             target="blank"
